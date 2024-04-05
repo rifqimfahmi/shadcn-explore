@@ -14,7 +14,7 @@ export default function Home() {
                     <Link href={'/login'}>Login</Link>
                 </Button>
                 <small>or</small>
-                <Button variant={'secondary'} asChild>
+                <Button variant={'outline'} asChild>
                     <Link href={'/sign-up'}>
                         Sign up
                     </Link>
