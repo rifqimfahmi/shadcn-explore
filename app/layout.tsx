@@ -19,8 +19,8 @@ export default function RootLayout(
         children: React.ReactNode;
     }>) {
     return (
-        <html lang="en" className={'dark'}>
-            <body className={cn(poppins.className)}>
+        <html lang="en">
+            <body className={cn(poppins.className, 'dark')}>
                 {children}
             </body>
         </html>
